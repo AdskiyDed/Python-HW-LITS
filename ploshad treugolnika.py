@@ -12,7 +12,4 @@ def distance(a, b, c):
             return
     else:
         return 'eto ne treugolnik'
-a=int(input())
-b=int(input())
-c=int(input())
-print(distance(a,b,c))
+print(distance(int(input()),int(input()),int(input())))

@@ -1,8 +1,9 @@
 def dov(n):
-    min=len(n)
+    min1=len(n)
+    min=()
     s=n.split()
     for i in s:
-        if min>len(i):
-            min=len(i)
+        if len(i)>min1:
+            min=i
     return min
 print(dov(input()))
